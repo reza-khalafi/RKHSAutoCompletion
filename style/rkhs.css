@@ -1,0 +1,54 @@
+
+.rkhs-result {
+
+    display: inline-block;
+}
+
+input#rkhs-input {
+    display: block;
+}
+
+ul#rkhs-responses {
+    list-style: none;
+    margin: 0;
+    padding: 11px;
+    border: 1px solid #666;
+
+}
+ul#rkhs-responses li{
+	cursor: pointer;
+}
+
+.rkhs-select-sp-id{
+  background: green;
+}
+#my-test-id {
+	display: block;
+}
+.rkhs-cancel-image {
+	right: -4px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	padding: 0;
+	position: relative;
+	top: 6px;
+}
+
+
+
+.rkhs-names-show {
+	display: inline-block;
+	width: 100%;
+	margin: 8px 0px 14px 0px;
+}
+.rkhs-names-show span:first-child {
+	margin-left: 0;
+}
+.rkhs-select-sp-id {
+	background: #4CAF50;
+	color: #fff;
+	display: inline-block;
+	padding: 1px 10px 7px 10px;
+	border-radius: 5px;
+	margin: 2px;
+}
