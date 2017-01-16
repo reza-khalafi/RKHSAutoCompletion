@@ -23,7 +23,7 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-  rkhsAutoCompletion('my-test-id','my-hidden-test-id');
+  rkhsAutoCompletion('my-test-id','my-hidden-test-id','backend/backend.php');
 });
 </script>
 

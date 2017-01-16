@@ -11,7 +11,7 @@
 
 
 
-function rkhsAutoCompletion (searchInputId,hiddenInputId) {
+function rkhsAutoCompletion (searchInputId,hiddenInputId,requestAddress) {
 	
        $('#'+searchInputId).after('<div class="rkhs-result" ></div>');
        $('.rkhs-result').after('<div class="rkhs-names-show" ></div>');
@@ -23,7 +23,7 @@ function rkhsAutoCompletion (searchInputId,hiddenInputId) {
       if(input_value_data!=''){
       	$.ajax({
             type: "get",
-            url: 'backend/backend.php',
+            url: requestAddress,
             data: input_value_data,
             contentType: "application/x-www-form-urlencoded",
             success: function(responseData, textStatus, jqXHR) {
